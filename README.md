@@ -26,6 +26,17 @@ npm run preview         # serve dist/ locally, normally http://localhost:4173
 npm run check           # tests and production build
 ```
 
+## Continuous integration
+
+GitHub Actions runs `npm ci` and `npm run check` on every pull request and on pushes
+to `main`, using Node 24 from `.nvmrc`. The **Test and build** check runs the existing
+interaction tests and production build; it does not deploy anything.
+
+For factory auto-merging, make **Test and build** a required status check for `main`
+in a GitHub branch protection rule or ruleset after the check has run. Adding this
+workflow alone does not configure that repository setting or bypass factory review
+and risk gates.
+
 This is plain JavaScript/JSX; there is no separate TypeScript compilation step.
 `npm run preview` is a local smoke-test server, not a production hosting service.
 
