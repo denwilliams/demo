@@ -1,0 +1,89 @@
+[
+  {
+    "state": "after",
+    "sha": "c86783aa272b774370c5cc3eb13689cca90c8191",
+    "route": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "deviceScaleFactor": 1,
+    "interaction": "fresh initial state",
+    "filename": "after-desktop.png",
+    "expected": "SMALL DEMO. BIG POSSIBILITIES.",
+    "layout": {
+      "viewportWidth": 1440,
+      "documentWidth": 1428,
+      "badge": {
+        "left": 1044.7833251953125,
+        "right": 1265.999984741211,
+        "width": 221.21665954589844,
+        "height": 15
+      },
+      "wordmarkRight": 274.6333312988281,
+      "text": {
+        "left": 1044.7833251953125,
+        "right": 1265.999984741211
+      }
+    },
+    "pageErrors": []
+  },
+  {
+    "state": "after",
+    "sha": "c86783aa272b774370c5cc3eb13689cca90c8191",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "deviceScaleFactor": 1,
+    "interaction": "fresh initial state",
+    "filename": "after-mobile.png",
+    "expected": "SMALL DEMO. BIG POSSIBILITIES.",
+    "layout": {
+      "viewportWidth": 390,
+      "documentWidth": 378,
+      "badge": {
+        "left": 191.75,
+        "right": 356,
+        "width": 164.25,
+        "height": 12
+      },
+      "wordmarkRight": 123.80000305175781,
+      "text": {
+        "left": 191.75,
+        "right": 356
+      }
+    },
+    "pageErrors": []
+  },
+  {
+    "state": "after",
+    "sha": "c86783aa272b774370c5cc3eb13689cca90c8191",
+    "route": "/",
+    "viewport": {
+      "width": 320,
+      "height": 740
+    },
+    "deviceScaleFactor": 1,
+    "interaction": "fresh initial state",
+    "filename": "after-narrow-mobile.png",
+    "expected": "SMALL DEMO. BIG POSSIBILITIES.",
+    "layout": {
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "badge": {
+        "left": 133.75,
+        "right": 298,
+        "width": 164.25,
+        "height": 12
+      },
+      "wordmarkRight": 123.80000305175781,
+      "text": {
+        "left": 133.75,
+        "right": 298
+      }
+    },
+    "pageErrors": []
+  }
+]

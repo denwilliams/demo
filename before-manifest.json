@@ -1,0 +1,89 @@
+[
+  {
+    "state": "before",
+    "sha": "1303c2120afd0e49ad89222e19c3adf5a59c8036",
+    "route": "/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "deviceScaleFactor": 1,
+    "interaction": "fresh initial state",
+    "filename": "before-desktop.png",
+    "expected": "A LITTLE DEMO, NOTHING REAL",
+    "layout": {
+      "viewportWidth": 1440,
+      "documentWidth": 1428,
+      "badge": {
+        "left": 1057.75,
+        "right": 1266,
+        "width": 208.25,
+        "height": 15
+      },
+      "wordmarkRight": 274.6333312988281,
+      "text": {
+        "left": 1057.75,
+        "right": 1266
+      }
+    },
+    "pageErrors": []
+  },
+  {
+    "state": "before",
+    "sha": "1303c2120afd0e49ad89222e19c3adf5a59c8036",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "deviceScaleFactor": 1,
+    "interaction": "fresh initial state",
+    "filename": "before-mobile.png",
+    "expected": "A LITTLE DEMO, NOTHING REAL",
+    "layout": {
+      "viewportWidth": 390,
+      "documentWidth": 378,
+      "badge": {
+        "left": 200.53334045410156,
+        "right": 356,
+        "width": 155.46665954589844,
+        "height": 12
+      },
+      "wordmarkRight": 123.80000305175781,
+      "text": {
+        "left": 200.53334045410156,
+        "right": 356
+      }
+    },
+    "pageErrors": []
+  },
+  {
+    "state": "before",
+    "sha": "1303c2120afd0e49ad89222e19c3adf5a59c8036",
+    "route": "/",
+    "viewport": {
+      "width": 320,
+      "height": 740
+    },
+    "deviceScaleFactor": 1,
+    "interaction": "fresh initial state",
+    "filename": "before-narrow-mobile.png",
+    "expected": "A LITTLE DEMO, NOTHING REAL",
+    "layout": {
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "badge": {
+        "left": 142.53334045410156,
+        "right": 298,
+        "width": 155.46665954589844,
+        "height": 12
+      },
+      "wordmarkRight": 123.80000305175781,
+      "text": {
+        "left": 142.53334045410156,
+        "right": 298
+      }
+    },
+    "pageErrors": []
+  }
+]
