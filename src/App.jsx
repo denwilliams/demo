@@ -63,7 +63,7 @@ export default function App() {
       <a className="skip-link" href="#playground">Skip to playground</a>
       <header className="site-header">
         <a className="wordmark" href="#" aria-label="Orbit home"><span aria-hidden="true">✳</span> orbit<span className="wordmark-dot">.</span></a>
-        <span className="demo-badge"><span aria-hidden="true" /> A LITTLE DEMO, NOTHING REAL</span>
+        <span className="demo-badge"><span aria-hidden="true" /> SMALL DEMO. BIG POSSIBILITIES.</span>
       </header>
 
       <main id="playground">

@@ -10,6 +10,12 @@ function setup() {
 }
 
 describe('Orbit playground', () => {
+  it('shows the replacement slogan in the header', () => {
+    setup();
+    expect(screen.getByRole('banner')).toHaveTextContent('SMALL DEMO. BIG POSSIBILITIES.');
+    expect(screen.queryByText('A LITTLE DEMO, NOTHING REAL')).not.toBeInTheDocument();
+  });
+
   it('identifies the content as fictional and shows the starting state', () => {
     setup();
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Small clicks.Big possibilities.');
